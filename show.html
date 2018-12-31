@@ -10,15 +10,16 @@
   grid-template-columns: auto auto auto auto;
   padding: 0px;
   transform-style: preserve-3d;
-  animation: annoyinganimation 10s;
+  border-top: 10px solid rgba(10,1,0,0.05);
+  animation: annoyinganimation 5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
 }
 
 @keyframes annoyinganimation {
     transform-style: preserve-3d;
-	from { 	transform:perspective(0px); transform: rotateX(0deg);   border-top: 0px solid rgba(10,1,0,0.05);}
-	to   {  transform:perspective(2500px); transform: rotateX(-15deg) rotateY(10deg);   border-top: 50px solid rgba(10,1,0,0.05);}
+	from { 	transform:perspective(0px); transform: rotateX(0deg);}
+	to   {  transform:perspective(2500px); transform: rotateX(-15deg) rotateY(10deg);   border-top: 50px solid rgba(10,1,0,.05);}
 }
 
 .grid-item {
