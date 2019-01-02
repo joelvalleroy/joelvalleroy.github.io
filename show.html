@@ -5,106 +5,103 @@
 <style>
 
 .grid-container {
-  font-family: BradleyHand, cursive;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 0px;
-  transform-style: preserve-3d;
-  border-top: 10px solid rgba(10,1,0,0.05);
-  animation: annoyinganimation 5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
+	font-family: BradleyHand, cursive;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	padding: 0px;
+	transform-style: preserve-3d;
+	border-top: 10px solid rgba(10,1,0,0.05);
+	animation: annoyinganimation 5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
 }
 
 @keyframes annoyinganimation {
     transform-style: preserve-3d;
-	from { 	transform:perspective(0px); transform: rotateX(0deg);}
-	to   {  transform:perspective(2500px); transform: rotateX(-15deg) rotateY(10deg);   border-top: 50px solid rgba(10,1,0,.05);}
+	from {transform:perspective(0px); transform: rotateX(0deg);}
+	to   {transform:perspective(2500px); transform: rotateX(-15deg) rotateY(10deg);   border-top: 50px solid rgba(10,1,0,.05);}
 }
 
 .grid-item {
-  border-left: 5px solid rgba(1, 0, .1, .1);
-  padding: 80px;
-  font-size: 30px;
-  text-align: center; 
+	border-left: 5px solid rgba(1, 0, .1, .1);
+	padding: 80px;
+	font-size: 30px;
+	text-align: center; 
 }
 
 .col1:hover, .col2:hover, .col3:hover, .col4:hover {
-  animation: postitanimation 5s; 
-  animation-fill-mode: forwards;
+	animation: postitanimation 5s; 
+	animation-fill-mode: forwards;
 }
 
 @keyframes postitanimation {
-
-  transform-style: preserve-3d;
-	from { box-shadow: 20px 20px 8px 0 rgba(0,0,0,0.2);}
-	to   { transform: rotateX(15deg) ;  box-shadow: 20px 20px 8px 0 rgba(0,0,0,0.2);}
+	transform-style: preserve-3d;
+	from {box-shadow: 20px 20px 8px 0 rgba(0,0,0,0.2);}
+	to   {transform: rotateX(15deg) ;  box-shadow: 20px 20px 8px 0 rgba(0,0,0,0.2);}
 }
 
 .col1, .col2, .col3, .col4 {
-  padding: inherit;
-  box-shadow: 10px 10px 8px 0 rgba(0,0,0,0.2);
-  animation: postitshadows 5s; 
-  animation-fill-mode: forwards;
-  box-sizing: border-box;
+	padding: inherit;
+	box-shadow: 10px 10px 8px 0 rgba(0,0,0,0.2);
+	animation: postitshadows 5s; 
+	animation-fill-mode: forwards;
+	box-sizing: border-box;
 }
 
 @keyframes postitshadows {
-  transform-style: preserve-3d;
+	transform-style: preserve-3d;
 	from {}
 	to   { box-shadow: 10px 10px 8px 0 rgba(0,0,0,0.2);}
 }
 
 .col1 {
-  background-color: yellow;
+	background-color: yellow;
 }
 
 .col2 {
-  background-color: pink;
+	background-color: pink;
 }
 
 .col3 {
-  background-color: green;
+	background-color: green;
 }
 
 .col4 {
-  background-color: cyan;
+	background-color: cyan;
 }
 
 </style>
 </head>
+
 <body style="background-color: lightgray; margin-top: 108px;">
 
 <h1 style="text-align:right; margin-right: 72px; margin-bottom: 100px;"> 
-<a href="show.html">Showcase</a> &nbsp
-<a href="index.html#blog">Blog</a> &nbsp
-<a href="index.html#projects">Projects</a> &nbsp
-<a href="index.html#misc">Misc</a> &nbsp
-<a href="index.html#about">About</a> </h1>
+	<a href="show.html">Showcase</a> &nbsp
+	<a href="index.html#blog">Blog</a> &nbsp
+	<a href="index.html#projects">Projects</a> &nbsp
+	<a href="index.html#misc">Misc</a> &nbsp
+	<a href="index.html#about">About</a> 
+</h1>
 
 
 <div class="grid-container">
-
-  <div class="grid-item"><p class="col1"><a style="text-decoration: none; color:black;"href="index.html#blog">Blog</a></p></div>
-  <div class="grid-item"><p class="col2"><a style="text-decoration: none; color:black;"href="index.html#projects">Projects </a></p></div>
-  <div class="grid-item"><p class="col3"><a style="text-decoration: none; color:black;"href="index.html#misc">Misc. </a></p></div>  
-  <div class="grid-item"><p class="col4"><a style="text-decoration: none; color:black;" href="index.html#about">About</p></a></div>
+  <div class="grid-item"><p class="col1"><a href="index.html#blog">Blog</a></p></div>
+  <div class="grid-item"><p class="col2"><a href="index.html#projects">Projects </a></p></div>
+  <div class="grid-item"><p class="col3"><a href="index.html#misc">Misc. </a></p></div>  
+  <div class="grid-item"><p class="col4"><a href="index.html#about">About</p></a></div>
   <div class="grid-item"><p class="col1"> </p></div>
-  <div class="grid-item"><p class="col2"><a style="text-decoration: none; color:black;" href="https://github.com/joelvalleroy/NFCSeniorProject">Safety Equipment Validation System</a> </p></div>
+  <div class="grid-item"><p class="col2"><a href="https://github.com/joelvalleroy/NFCSeniorProject">Safety Equipment Validation System</a> </p></div>
   <div class="grid-item"><p class="col3"> </p></div>
-  <div class="grid-item"><p class="col4">My <a href="https://www.linkedin.com/in/joelvalleroy/"><img src="li.png"></a> </p></div>
-  <div class="grid-item"><p class="col1"> </p></div>
-  <div class="grid-item"><p class="col2"> </p></div>
-  <div class="grid-item"><p class="col3"> </p></div>
-  <div class="grid-item"><p class="col4"> </p></div>
+  <div class="grid-item"><p class="col4"> <a href="https://www.linkedin.com/in/joelvalleroy/"> My <img src="li.png"></a> </p></div>
   <div class="grid-item"><p class="col1"> </p></div>
   <div class="grid-item"><p class="col2"> </p></div>
   <div class="grid-item"><p class="col3"> </p></div>
   <div class="grid-item"><p class="col4"> </p></div>
-  
+  <div class="grid-item"><p class="col1"> </p></div>
+  <div class="grid-item"><p class="col2"> </p></div>
+  <div class="grid-item"><p class="col3"> </p></div>
+  <div class="grid-item"><p class="col4"> </p></div>
 </div>
-
-
 
 </body>
 </html>
