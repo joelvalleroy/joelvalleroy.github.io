@@ -7,15 +7,20 @@
 	<style>
 
 		h1{
+			top: 0 px;
 			margin-top: 2%; 
+			right: 5%;
 			position: absolute; 
-			right: 10%; 
 			opacity: 1; 
 			padding: 1%;
 			background-color: rgba(211, 211, 211, 1);
 			
 			animation: annoyinganimation 10s;
 			animation-fill-mode: forwards;
+			
+			max-width:100%;
+			height: 100;
+			font-size: 1.5vw;
 		}
 
 		@keyframes annoyinganimation {
@@ -25,39 +30,53 @@
 		}
 
 		.section {
-			padding-top: 30%;
-			padding-bottom: 10%;
-			font-size: 1.5vw;
+			padding-top: 5%;
 		}
 
+		body {
+			padding-top: 5%;
+			font-size: 1.5vw;
+			text-align:center;  
+			background-color: #DCDCDC; 
+			padding-bottom: 10%;
+			max-width:100%;
+			max-height:100%;
+		}
+		
+		img {
+			max-width:100%;
+			max-height:100%;
+		}
+		
 	</style>
 </head>
 
 <h1> 
-	<p>
-		<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="joelvalleroy">
-		<a class="LI-simple-link" href='https://www.linkedin.com/in/joelvalleroy?trk=profile-badge'>LinkedIn</a></div>
+	<div class="LI-profile-badge" data-height="45" data-version="v1" data-size="small" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="joelvalleroy">
+		<a class="LI-simple-link" href='https://www.linkedin.com/in/joelvalleroy?trk=profile-badge'>Joel Valleroy</a>
+	</div>
 		
-	</p>
-		<a href=mailto:joelvalleroy&#64gmail.com>Email</a>
+	<a href=mailto:joelvalleroy&#64gmail.com>Email</a>
 </h1>
 
   
-<body style="text-align:center;  background-color: #DCDCDC; margin-left:20%; margin-right: 20%;">
+<body>
 
-	<div class="section" id="projects">
+	<div class="section">
 		<p><b>Real-time Seismic Monitoring System</b></p>
+		<p><img src="Resources\SeismicHW.png"></a></p>
 		<p><i>More to come...</i></p>
-		<p>.</p>
-		
+	</div>
+	
+	<div class="section">
 		<p><b>Safety Equipment Validation System</b></p>
-		<p>Recently, a company named Cortexica has released a similar (slightly cooler?) 
-			<a href = "https://cortexica.github.io/intel-rrk-safety/"> project</a>.</p>
+		<p>Update: Recently, a company named Cortexica has released a similar (slightly cooler?) 
+			<a href = "https://cortexica.github.io/intel-rrk-safety/"> project</a>. Check it out!
+		</p>
 		
 		<p><i>(Click to Magnify)</i><p>
 		<p><a href="Resources\SeniorPoster.pdf"><img src="Resources\SeniorPoster.png"></a></p>
 		<p><a href="https://github.com/joelvalleroy/NFCSeniorProject">Code Repository</a></p>
-		<p>.</p>
 	</div>
 
 </body>
