@@ -1,4 +1,4 @@
-.linkedin {
+.contact {
     top: 0px;
     margin-top: 2%;
     right: 5%;
@@ -10,7 +10,7 @@
     animation-fill-mode: forwards;
 
     max-width: 100%;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 @media (max-width:962px) {
