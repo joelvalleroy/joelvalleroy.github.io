@@ -28,6 +28,8 @@
 
 .section {
     padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
 	animation: annoyinganimation 10s;
     animation-fill-mode: forwards;
 }
@@ -35,8 +37,7 @@
 body {
     padding: 2rem;
     max-width: 38rem;
-	margin: auto;
-	
+	margin: auto;	
 	font-size: 1.5em;
 	text-align: center;
 	background: rgb(238,174,202);
