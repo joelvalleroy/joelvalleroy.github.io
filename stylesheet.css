@@ -28,23 +28,23 @@
 
 .section {
     padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
-	animation: annoyinganimation 10s;
+    padding-left: 5%;
+    padding-right: 5%;
+    animation: annoyinganimation 10s;
     animation-fill-mode: forwards;
 }
 
 body {
     padding: 2rem;
     max-width: 38rem;
-	margin: auto;	
-	font-size: 1.5em;
-	text-align: center;
-	background: rgb(238,174,202);
-	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: auto;	
+    font-size: 1.4em;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 img {
     max-width: 100%;
-	outline: 1.5px solid darkgray;
+    outline: 1.5px solid darkgray;
 }
