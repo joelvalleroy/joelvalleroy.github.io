@@ -1,4 +1,4 @@
-.contact {
+.contact, .contact_mobile {
     margin-top: 2%;
     right: 5%;
     position: absolute;
@@ -11,8 +11,19 @@
     font-size: 3vw;
 }
 
+.contact_mobile {
+	padding: 3%;
+	background: rgb(238,174,202);
+}
+
 @media (max-width:962px) {
-    .linkedin {
+    .contact {
+        display: none;
+    }
+}
+
+@media (min-width:962px) {
+    .contact_mobile {
         display: none;
     }
 }
