@@ -59,3 +59,7 @@ img {
     max-width: 100%;
     outline: 1.5px solid darkgray;
 }
+
+.clickable:hover {
+	/* add something here later to make clickable pictures etc obvious */
+}
