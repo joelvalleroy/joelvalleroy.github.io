@@ -12,8 +12,8 @@
 }
 
 .contact_mobile {
-	padding: 3%;
-	background: rgb(238,174,202);
+    padding: 3%;
+    background: rgb(238,174,202);
 }
 
 @media (max-width:962px) {
@@ -57,9 +57,39 @@ body {
 
 img {
     max-width: 100%;
-    outline: 1.5px solid darkgray;
+    outline: 0px solid darkgray;
 }
 
-.clickable:hover {
-	/* add something here later to make clickable pictures etc obvious */
+.paperstack {
+    background-color: #fff;
+	position: relative;
+    max-width: 100%;
+}
+
+.paperstack,
+.paperstack::before,
+.paperstack::after {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    max-width: 100%;
+}
+
+.paperstack::before,
+.paperstack::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.paperstack::before {
+    left: 3px;
+    top: 3px;
+    z-index: -1;
+}
+
+.paperstack::after {
+    left: 6px;
+    top: 6px;
+    z-index: -2;
 }
