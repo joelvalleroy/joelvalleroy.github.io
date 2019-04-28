@@ -49,6 +49,7 @@ body {
     padding: 2rem;
     max-width: 38rem;
     margin: auto;	
+	font-family: Consolas;
     font-size: 1.4em;
     text-align: center;
     background: rgb(238,174,202);
